@@ -1,0 +1,38 @@
+.form_contact{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.input__form{
+width: 200px;
+height: 20px;
+
+padding-left: 5px;
+border: 2px solid rgba(117, 135, 235, 0.698);
+border-radius: 5px; 
+background-color: rgba(26, 94, 154, 0.258);
+}
+
+.input__form:hover,
+.input__form:focus{
+border: 2px solid rgb(31, 62, 234);
+background-color: rgba(149, 215, 215, 0.405);
+}
+
+.submit__btn{
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  border: none;
+  background-color: rgba(43, 67, 226, 0.599);
+  color: white;
+  font-size: 15px;
+  border-radius: 5PX;
+}
+.submit__btn:hover,
+.submit__btn:focus{
+color: rgba(213, 235, 68, 0.946);
+background-color:  rgba(43, 67, 226, 0.657);;
+}
